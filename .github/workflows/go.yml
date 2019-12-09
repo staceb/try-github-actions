@@ -1,7 +1,8 @@
 name: Go
 on:
   push: 
-    
+    tags-ignore:	
+    - 'v*.*.*'
 jobs:
   checkout:
     name: Checkout
