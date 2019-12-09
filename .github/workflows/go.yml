@@ -1,9 +1,7 @@
 name: Go
 on:
-  push:
-    paths:
-      - '**.go'
-
+  push: 
+    
 jobs:
   checkout:
     name: Checkout
